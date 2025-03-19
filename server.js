@@ -25,7 +25,7 @@ connectDB()
 app.use("/auth",router)
 app.use("/cart",cartrouter)
 
-app.get('/',(res,req)=>{
+app.get('/',(req,res)=>{
     res.send('Hello World!')
 })
 
